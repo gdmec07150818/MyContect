@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="cn.s07150818edu.mycontect.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:id="@+id/name"/>
+        <requestFocus/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="单位"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"/>
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:layout_width="190dp"
+            android:id="@+id/danwei"
+            android:minLines="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="电话"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"/>
+    <EditText
+
+        android:layout_height="wrap_content"
+        android:layout_width="190dp"
+        android:id="@+id/mobile"
+        android:inputType="number"/>
+    <requestFocus/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="QQ"
+            android:layout_marginLeft="5dp"
+            android:textSize="20sp"/>
+        <EditText
+
+            android:layout_height="wrap_content"
+            android:layout_width="190dp"
+            android:id="@+id/qq"
+            android:minLines="3"
+            android:inputType="number"/>
+
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="10dp">
+<TextView
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:text="地址"
+    android:layout_marginLeft="5dp"
+    android:textSize="20sp"/>
+<EditText
+
+    android:layout_height="wrap_content"
+    android:layout_width="190dp"
+    android:id="@+id/address"
+    android:minLines="3"
+    />
+
+</LinearLayout>
+</LinearLayout>
